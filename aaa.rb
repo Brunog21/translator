@@ -14,7 +14,4 @@
        info = Info.new
        puts info.infos
 
-       t = Time.now
-    File.open(t.strftime("%d-%m-%Y.%H.%M.%S") + ' DATA.txt', 'w') do |line|
-        line.print('infos')
-    end
+      
