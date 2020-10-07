@@ -1,9 +1,10 @@
     # Acaba puxando as informações do aaa.rb e trás para cá
-    class Tradu 
+    
 require 'uri'
 require 'net/http'
 require 'openssl'
 require_relative 'aaa'
+    class Tradu
         def caram
 url = URI("https://google-translate1.p.rapidapi.com/language/translate/v2")
 
